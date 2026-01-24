@@ -1,8 +1,8 @@
-# 📄 Document De-Jargonizer
+# Document De-Jargonizer
 
 An AI-powered web application that simplifies complex legal, medical, and government documents into plain, easy-to-understand language.
 
-## 🌟 Features
+## Features
 
 - **PDF Document Upload**: Upload and process PDF documents only
 - **AI-Powered Text Extraction**: Automatically extracts text from PDF files
@@ -14,7 +14,7 @@ An AI-powered web application that simplifies complex legal, medical, and govern
 - **Document Management**: Store and manage multiple documents
 - **MongoDB Database**: Persistent storage for documents and analyses
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Python 3.8+**
@@ -30,7 +30,7 @@ An AI-powered web application that simplifies complex legal, medical, and govern
 - **CSS3** - Styling
 - **Fetch API** - HTTP requests
 
-## 📋 Prerequisites
+## Prerequisites:
 
 Before you begin, ensure you have the following installed:
 - Python 3.8 or higher
@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
 - MongoDB (running locally or cloud instance)
 - Google Gemini API key ([Get one here](https://makersuite.google.com/app/apikey))
 
-## 🚀 Installation & Setup
+## Installation & Setup:
 
 ### 1. Clone the Repository
 
@@ -101,7 +101,7 @@ npm install
 # You can modify it if your backend runs on a different port
 ```
 
-## 🎯 Running the Application
+## Running the Application
 
 ### Start Backend Server
 
@@ -124,7 +124,7 @@ npm start
 
 The frontend will run on `http://localhost:3000` and automatically open in your browser.
 
-## 📖 Usage
+## Usage:
 
 1. **Upload a PDF Document**
    - Click "Upload Document"
@@ -132,7 +132,7 @@ The frontend will run on `http://localhost:3000` and automatically open in your 
    - The system supports only PDF files with extractable text
    - Enter a title (auto-filled from filename)
    - Select document type (Legal, Medical, Government, etc.)
-   - Click "🚀 Upload & Analyze Document"
+   - Click "Upload & Analyze Document"
 
 2. **Processing**
    - The system extracts text from your PDF using advanced algorithms
@@ -196,7 +196,7 @@ Form Data:
 - type: Document type (optional, defaults to 'general')
 ```
 
-## 🎨 Document Types Supported
+## Document Types Supported
 
 - General Documents
 - Legal Documents
@@ -219,7 +219,7 @@ Form Data:
 ### Disclaimer
 This tool provides simplified explanations only. It does not constitute legal, medical, or financial advice. Always consult qualified professionals for expert guidance.
 
-## 🐛 Troubleshooting
+## Troubleshooting:
 
 ### Backend Issues
 
@@ -250,7 +250,7 @@ sudo lsof -ti:3000 | xargs kill -9
 npm install
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bero/
@@ -276,7 +276,7 @@ bero/
 └── README.md               # This file
 ```
 
-## 🔐 Security Considerations
+## Security Considerations
 
 - Never commit `.env` files to version control
 - Keep your Gemini API key secure
@@ -284,7 +284,7 @@ bero/
 - Implement rate limiting for production use
 - Add authentication for production deployment
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - [ ] User authentication and authorization
 - [ ] Document comparison feature
@@ -294,18 +294,6 @@ bero/
 - [ ] Document versioning
 - [ ] Collaborative features
 
-## 📝 License
 
-This project is for educational and demonstration purposes.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Support
-
-For issues or questions, please create an issue in the repository.
-
----
-
-**Built with ❤️ for Hackathon**
+This project is for educational and demonstration purposes only.
+Support and Conitributions are welcome

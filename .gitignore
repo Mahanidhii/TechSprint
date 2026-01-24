@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+build/
+dist/
+
+# Firebase
+backend/serviceAccountKey.json
+**/serviceAccountKey.json
+firebase-debug.log
+firestore-debug.log

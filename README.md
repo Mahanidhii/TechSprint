@@ -12,14 +12,14 @@ An AI-powered web application that simplifies complex legal, medical, and govern
 - **Risk Detection**: Identify potential risks and concerns in documents
 - **Important Clauses**: Highlights critical sections you need to know
 - **Document Management**: Store and manage multiple documents
-- **MongoDB Database**: Persistent storage for documents and analyses
+- **Google Firebase (Database)**: Persistent storage for documents and analyses
 
 ## Tech Stack
 
 ### Backend
 - **Python 3.8+**
 - **Flask** - Web framework
-- **MongoDB** - Database
+- **Google Firebase** - Database
 - **Google Gemini AI** - AI analysis
 - **PyPDF2** - PDF text extraction
 - **pdfplumber** - Advanced PDF processing
@@ -69,26 +69,8 @@ cp .env.example .env
 # GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-### 3. MongoDB Setup
 
-**Option A: Local MongoDB**
-```bash
-# Install MongoDB (if not already installed)
-# On Ubuntu/Debian:
-sudo apt-get install mongodb
-
-# Start MongoDB service
-sudo systemctl start mongodb
-sudo systemctl enable mongodb
-```
-
-**Option B: MongoDB Atlas (Cloud)**
-1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-2. Create a cluster
-3. Get your connection string
-4. Update `MONGO_URI` in backend/.env
-
-### 4. Frontend Setup
+### 3. Frontend Setup
 
 ```bash
 # Navigate to frontend directory

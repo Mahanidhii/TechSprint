@@ -137,14 +137,14 @@ The frontend will run on `http://localhost:3000` and automatically open in your 
    - Click the "Delete" button on any document card
    - Confirm the deletion
 
-## ⚠️ Important Notes
+## Important Notes ⚠️
 
-### Supported PDFs
+### Supported Content & Formats:
 - Digital PDFs with selectable/copyable text ✅
 - PDFs created from Word, Google Docs, or similar tools ✅
 - E-signed documents with text layers ✅
 
-### NOT Supported
+### NOT Supported:
 - Scanned PDFs (image-only) ❌
 - Image-based PDFs without text layer ❌
 - Password-protected PDFs ❌

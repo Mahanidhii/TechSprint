@@ -140,19 +140,28 @@ The frontend will run on `http://localhost:3000` and automatically open in your 
 ## ⚠️ Important Notes
 
 ### Supported PDFs
-- ✅ Digital PDFs with selectable/copyable text
-- ✅ PDFs created from Word, Google Docs, or similar tools
-- ✅ E-signed documents with text layers
+- Digital PDFs with selectable/copyable text ✅
+- PDFs created from Word, Google Docs, or similar tools ✅
+- E-signed documents with text layers ✅
 
 ### NOT Supported
-- ❌ Scanned PDFs (image-only)
-- ❌ Image-based PDFs without text layer
-- ❌ Password-protected PDFs
-- ❌ Corrupted or damaged PDFs
+- Scanned PDFs (image-only) ❌
+- Image-based PDFs without text layer ❌
+- Password-protected PDFs ❌
+- Corrupted or damaged PDFs ❌
+
+### Critical Rules (Implemented in AI)
+1. Uses ONLY the provided document text as source
+2. Explicitly states unclear, missing, or ambiguous information
+3. Does NOT give legal, medical, or financial advice
+4. Does NOT guess intent or outcomes
+5. Does NOT summarize away important details
+6. Uses plain language (Grade 8 level)
+7. Explains WHY clauses may be risky using document's wording
 
 **Tip**: If you can select/copy text in your PDF viewer, it will work!
 
-## 🔑 API Endpoints
+## API Endpoints
 
 ### Backend API
 
@@ -186,17 +195,6 @@ Form Data:
 - Government Documents
 - Terms & Conditions
 - Privacy Policies
-
-## ⚠️ Important Notes
-
-### Critical Rules (Implemented in AI)
-1. Uses ONLY the provided document text as source
-2. Explicitly states unclear, missing, or ambiguous information
-3. Does NOT give legal, medical, or financial advice
-4. Does NOT guess intent or outcomes
-5. Does NOT summarize away important details
-6. Uses plain language (Grade 8 level)
-7. Explains WHY clauses may be risky using document's wording
 
 ### Disclaimer
 This tool provides simplified explanations only. It does not constitute legal, medical, or financial advice. Always consult qualified professionals for expert guidance.
